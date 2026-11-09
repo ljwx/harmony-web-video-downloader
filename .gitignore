@@ -1,0 +1,24 @@
+# Generated dependencies and builds
+oh_modules/
+.hvigor/
+build/
+.idea/
+.preview/
+node_modules/
+
+# Local environment and diagnostics
+local.properties
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+/VALIDATION.md
+
+# Signing material (configure locally in DevEco Studio)
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.p7b
